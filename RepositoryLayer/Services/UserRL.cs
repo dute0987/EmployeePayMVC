@@ -87,7 +87,7 @@ namespace RepositoryLayer.Services
                     employee.profileImage = Convert.ToString(rdr["profileImage"]);
                     employee.Gender = Convert.ToString(rdr["Gender"]);
                     employee.Department = Convert.ToString(rdr["Department"]);
-                    employee.salary = Convert.ToInt32(rdr["salary"]);
+                    employee.salary = Convert.ToInt64(rdr["salary"]);
                     employee.startDate = Convert.ToDateTime(rdr["startDate"]);
                     employee.notes = Convert.ToString(rdr["notes"]);
 
@@ -114,7 +114,7 @@ namespace RepositoryLayer.Services
                     employee.profileImage = Convert.ToString(rdr["profileImage"]);
                     employee.Gender = Convert.ToString(rdr["Gender"]);
                     employee.Department = Convert.ToString(rdr["Department"]);
-                    employee.salary = Convert.ToInt32(rdr["salary"]);
+                    employee.salary = Convert.ToInt64(rdr["salary"]);
                     employee.startDate = Convert.ToDateTime(rdr["startDate"]);
                     employee.notes = Convert.ToString(rdr["notes"]);
                 }

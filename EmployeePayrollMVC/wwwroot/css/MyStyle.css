@@ -2,10 +2,11 @@
      margin: 0;
    height: 100%;
     background-color: lightpink;
+   
 }
 .header {
     padding: 0px 0;
-    background-color: #80ffdf;
+    background-color: #ffffff;
 }
 
 .content-index {
@@ -14,12 +15,12 @@
 }
 
 .table {
-    background-color: red;
+    background-color: #b2beb5;
     border-radius: 15px;
 }
 
 .nav-link text-dark {
-    color: red;
+    color: pink;
 }
 
 .header-content {
@@ -55,7 +56,79 @@ label {
 }
 .button-content {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     Justify-content: space-between;
-    margin-top: 5px;
+    margin-top: 15px;
+}
+.changePosition{
+   /* margin-inline-end:auto;*/
+    margin-right:380px;
+    position:center;
+}
+.changePosition2{
+   float:left;
+   position:initial;
+}
+form-content {
+    /*min-height: calc(100%-80px);
+    background-color: #80ffdf;
+    display: flex;
+    margin-bottom: 50px;
+   justify-content: center;
+    align-items: center;
+    border: 0px solid green;*/
+    /*text-align:center;
+    display:block;*/
+}
+.control-label {
+    width: 150px;
+    
+    /* font-weight: 400;
+    font-size: large;*/
+}
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: calc(100%-80px);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    margin: auto;
+}
+.clone{
+    text-align:center;
+}
+.profile-radio-content profile-control{
+    margin-left:10px;
+}
+.texter {
+    font-size: 15px;
+    /*margin-left: -40px;*/
+}
+.profile-control{
+    margin-left:-40px;
+}
+.ok {
+    margin-left: -40px;
+}
+.newfont{
+    text-align:center;
+}
+/*.img1{
+    margin-bottom:10px;
+    padding-bottom:10px;
+}*/
+.adjust{
+    justify-content:center;
+}
+.logopart{
+    display:flex;
+
+}
+.logopart h5 {
+    font-size: 16px;
+    padding-left: 5px;
+    
 }
